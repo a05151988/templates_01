@@ -1,0 +1,130 @@
+.seminar-title{
+	width:70%;
+	float:left;
+	text-align:center;
+	font-size:30px;
+	color:blue;
+	font-weight:bold;
+	vertical-align:middle;
+	text-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+	text-shadow:2px 2px 1px rgba(20%,20%,40%,0.5) inset;
+	text-shadow:2px 2px 2px rgba(20%,20%,40%,0.6),4px 4px 6px rgba(20%,20%,40%,0.4),6px 6px 12px rgba(20%,20%,40%,0.4);
+}
+.seminar-subtitle{
+	width:30%;
+	float:right;
+	font-size:large;
+	color:red;
+}
+.seminar-description{
+	margin-top:10px;
+}
+.seminar-clearboth{
+	clear:both;
+}
+.seminar-degree{
+	font-weight:bold;
+}
+.seminar-people{
+	text-decoration: underline;
+}
+.seminar-item-title{
+	width: auto;
+	height: 23px;
+	color: #CD0555;
+	font-weight: bold;
+	padding: 2px 0px 0px 5px;
+	margin: 0px;
+	border-left: 5px solid #CD0555;
+	border-bottom: 1px solid #CD0555;
+	text-decoration: none;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+.seminar-units-table{
+	border: 0px;
+	width: 100%;
+}
+.seminar-units-table tbody tr th{
+	width:100px;
+}
+.seminar-units-table tbody tr td{
+	border-bottom: 1px solid black;
+}
+.seminar-schedule-table{
+	width: 70%;
+	margin-left:30px;
+}
+.seminar-schedule-table td,.seminar-schedule-table th{
+	border: 1px solid black;
+	padding:8px;
+	margin:0px;
+}
+.seminar-schedule-table thead th{
+	background-color:#548dd4;
+	color:white;
+}
+.seminar-schedule-table tbody tr:nth-child(even) {background: #CCC}
+.seminar-schedule-table tbody tr:nth-child(odd) {background: #FFF}
+.seminar-teachers-introduction{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.seminar-teacher-separator{
+	clear:both;
+	padding: 2px 0px 0px 5px;
+	border-bottom: 1px solid #CD0555;
+	text-decoration: none;
+	margin-top:30px;
+	margin-bottom:20px;
+	width:100%;
+}
+.seminar-teacher-introduction-left{
+	width:150px;
+	text-align: center;
+}
+.seminar-teacher-introduction-right{
+	width:500px;
+
+}
+.seminar-teacher-subtitle{
+	width:auto;
+	vertical-align:middle;
+	margin-right:30px;
+}
+.seminar-teacher-introduction-left,.seminar-teacher-introduction-right{
+	float:left;
+}
+.seminar-teacher-img{
+	margin:auto;
+	width:150px;
+}
+.seminar-teacher-img img{
+	max-width:100%;
+	max-height:100%;
+	height:150px;
+}
+.seminar-teacher-name{
+	text-align:center;
+}
+table th, table td{
+	border-top:0px;
+}
+.seminar-pictures{
+	width:100%;
+}
+.seminar-picture{
+	float:left;
+	width:45%;
+	margin:5px;
+	text-align:center;
+	padding:5px;
+	box-shadow:3px 3px 3px 3px rgba(0,0,0,.25);
+	-webkit-box-shadow: 3px 3px 3px 3px rgba(0,0,0,.25);
+	-moz-box-shadow: 3px 3px 3px 3px rgba(0,0,0,.25);
+}
+.seminar-picture img{
+	max-width:100%;
+	max-height:100%;
+	vertical-align:bottom;
+}

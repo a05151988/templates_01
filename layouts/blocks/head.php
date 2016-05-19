@@ -17,6 +17,7 @@ $this->API->addCSS($this->API->URLtemplate().'/css/template.css');
 $this->API->addCSS($this->API->URLtemplate() . '/css/font-awesome.css');
 $this->API->addCSS($this->API->URLtemplate() . '/css/seminar.css');
 $this->API->addCSS($this->API->URLtemplate() . '/css/animate.css');
+$this->API->addCSS($this->API->URLtemplate() . '/css/nprogress.css');
 // generate the max-width rules
 $this->API->addCSSRule('.container-fluid { max-width: '.$this->API->get('max_page_width', '1200').'!important; }');
 // generate the submenu width
@@ -79,6 +80,8 @@ $this->API->addJS($this->API->URLtemplate().'/js/gk.menu.js');
 $this->API->addJS($this->API->URLtemplate().'/js/counter.js');
 $this->API->addJS($this->API->URLtemplate().'/js/fixed_menu.js');
 $this->API->addJS($this->API->URLtemplate().'/js/ganalytics.js');
+$this->API->addJS($this->API->URLtemplate().'/js/nprogress.js');
+$this->API->addJS($this->API->URLtemplate().'/js/pageLoading.js');
 // load CSS compresssion
 if($this->API->get('css_compression', '0') == 1 || $this->API->get('css_cache', '0') == 1) {
 	$this->cache->registerCache();

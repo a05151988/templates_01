@@ -271,7 +271,7 @@ $dispatcher->trigger('onInit','recaptcha');
 				<span class="small">*</span>
                 </label>
                 <div class="controls">
-                    <div id="recaptcha" class="g-recaptcha" data-sitekey="6LfBmR8TAAAAABsmHItuTYTG_I-EAzS7m5im3ymg"></div>
+                    <div id="recaptcha"></div>
                 </div>
             </div>
 			<div class="control-group">
